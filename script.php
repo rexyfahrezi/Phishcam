@@ -1,5 +1,5 @@
 <?php  
-	// requires php5  
+
 	define('UPLOAD_DIR', 'images/');  
 	$img = $_POST['imgBase64'];  
 	$img = str_replace('data:image/png;base64,', '', $img);  
